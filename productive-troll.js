@@ -30,7 +30,7 @@ program.version(getProgramVersion());
 program
     .command('work [env]')
     .description('Adds a watch which will commit every time you save a file.')
-    .action(function(env, options){
+    .action((env, options) => {
         console.log("You will be productive in no time!");
         console.log(`[debug] I'll watch: ${process.cwd()}`);
 
