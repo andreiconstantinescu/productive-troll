@@ -1,0 +1,13 @@
+{
+  "name": "productive-troll",
+  "version": "0.0.1",
+  "description": "Git commits every time time a file is saved.",
+  "main": "productive-troll.js",
+  "author": "Gabriel Gabor",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^2.9.0",
+    "node-watch": "^0.5.4",
+    "simple-git": "^1.73.0"
+  }
+}
